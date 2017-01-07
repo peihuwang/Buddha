@@ -1,6 +1,6 @@
 <?php
 
-class Buddha_Exception_Http{
+class Buddha_Exception_Http extends Buddha_Base_Exception{
     /**
      * 是否抛出异常
      * @var boolean
