@@ -1,0 +1,20 @@
+http://buddha.com/index.php?a=index&c=index
+
+
+
+System
+     ->sysedm            邮件营销
+     ->syssms            短信营销
+     ->sysseo            网站优化
+     ->sysbidding        竞价排名 --展示在百度平台第一页
+
+#####################sysedm#####################
+     http://app2.mailpanda.com/account/login
+     1175885974@qq.com
+     123456
+#####################sysedm#####################
+
+
+
+
+

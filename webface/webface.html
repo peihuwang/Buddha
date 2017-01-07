@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<script src="http://piaowu.xhuiyou.com/manage/js/jquery.min.js"></script>
+<script>
+    var url='http://piaowu.xhuiyou.com/webface/?Services=user.login&access_token=b88f9603be8be14e66a2b204fa15e7f5';
+    var usertoken='ec516ec03196d5c8e6679d5c39786e03';
+    ec516ec03196d5c8e6679d5c39786e03
+    var username='peihuwang ',
+            password='123456';
+    $.ajax({
+                url: url,
+                type: 'GET',
+                dataType: 'json',
+                data: {username:username,password:password},
+            })
+            .done(function(o) {
+                if(o.errcode=='0'){
+                }else{
+                    alert(o.errmsg);
+                }
+            })
+            .fail(function() {
+                console.log("error");
+            })
+            .always(function() {
+                console.log("complete");
+            });
+
+</script>
+
+</body>
+</html>
